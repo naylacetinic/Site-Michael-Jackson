@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Recados </title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <button><a href="#topo"> Menu </a></button>
+    </div>
+    <p id="cabeça">Envie seu recado:</p>
+    <div class="form">
+        <form>
+            <div class="itens">
+                Nome: <br>
+                <input type="text"><br> </div>
+            <div class="itens">
+                Email: <br>
+                <input type="email"><br> </div>
+            <div class="nao">
+                <div class="item">
+                    Cidade: <input type="text"> <br> </div>
+                <div class="item">
+                    Estado: <input type="text"><br>
+                </div>
+            </div>
+            Mensagem: <br> <textarea name="Mensagem" cols="250" rows="10" onclick="enviou()"></textarea> <br>
+            <input type="submit">
+        </form>
+    </div>
+    <img src="../../imageremovebg-preview.png" /><br><br>
+    <a name="topo"></a> Menu: </a> <br><br>
+    <button><a href="../../index.html"> Home </a></button> <br>
+    <button><a href="../../páginas/shop/shop.html"> Loja  </a></button><br>
+    <button><a href="../../páginas/memes/memes.html"> Memes </a></button><br>
+    <button><a href="../Memes de Terror/meme de terror.html"> Surpresa  </a></button><br>
+    <button><a href="../../páginas/polêmicas/polemicas.html"> Polêmicas </a></button><br>
+    <button><a href="../../páginas/Comentários/recados.html"> Recados  </a></button><br>
+    <button><a href="../../páginas/tragetória/tragetoria.html"> Trajetória  </a></button><br>
+    <button> <a href="páginas/shows/turnes.html"> Turnês </a></button> <br><br><br>
+    <img src="../../imageremovebg-preview.png" /> <br><br>
+    <marquee direction="right">
+        <img height="300" src="../../original.jpg">
+        <img height="300" src="../../mjs.jpg">
+        <img height="300" src="../../jms.jpg.png">
+        <img height="300" src="../../major_love_michael_.jpg">
+        <img height="300" src="../../mage.jpg">
+    </marquee>
+    <div class="footer">
+        <table>
+            <thead>
+                <tr>
+                    <th> Sobre o site </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Criado por:</td>
+                </tr>
+                <tr>
+                    <td>Arthur, Luis, Nayla, Thiago</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+    </main>
+    <script>
+        function enviou() {
+            document.querySelector("#cabeça").innerHTML = "Máximo 1000 caracteres"
+
+        }
+    </script>
+</body>
+
+</html>
